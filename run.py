@@ -1,5 +1,6 @@
-import tkinter as tk
+from src.logic.game import Board
 
-root = tk.Tk()
 
-root.mainloop()
+if __name__ == "__main__":
+    board = Board()
+    board.display()

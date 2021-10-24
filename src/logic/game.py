@@ -1,8 +1,8 @@
 
 
-class Generator:
+class Game:
     def __init__(self) -> None:
         pass
 
-    def generate(self):
+    def run(self):
         pass
