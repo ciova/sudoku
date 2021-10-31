@@ -1,6 +1,6 @@
-from src.logic.game import Board
+from src.logic.generator import Generator
 
 
 if __name__ == "__main__":
-    board = Board()
-    board.display()
+    generator = Generator()
+    generator.generate()
